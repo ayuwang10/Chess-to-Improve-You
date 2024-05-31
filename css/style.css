@@ -1,0 +1,321 @@
+*{ 
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+.section-headline{
+    color:#4e4d4d;
+    text-align:center;
+    font-size:50px;
+    font-weight:300;
+}
+
+section{
+    padding:70px 0;
+}
+
+.line{
+    height:2px;
+    width:80px;
+    background-color:lightgray;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:75px;
+    
+}
+.row{
+    width:80%;
+    margin:0 auto;
+    overflow:auto;
+}
+.oneoftwo{
+    width:50%;
+    float:left;
+}
+
+.one-of-three{
+    width:33%;
+    float:left;
+}
+.two-of-three{
+    width:66%;
+    float:left;
+}
+.one-of-four{
+    width:25%;
+    float:left;
+}
+
+.three-of-four{
+    width:75%;
+    float:left;
+}
+
+#header{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url('../img/worldcup.png');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    position:relative;
+}
+
+#header .dots{
+    background-image: url('../img/pattern-bg.png');
+    height:100%;
+}
+
+#header nav{
+    position:relative;
+    padding:20px 10px;
+}
+
+}
+
+#header nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:300;
+}
+
+#header .headlinecontainer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#header .headlinecontainer h1{
+    font-size:60px;
+    font-weight:400;
+}
+
+#header .headlinecontainer h2{
+    font-size:45px;
+    font-weight:300;
+    margin-bottom:45px;
+}
+
+#header .headlinecontainer a{
+    font-size:25px;
+    font-weight:300;
+    padding:5px 15px;
+    color:white;
+    text-decoration:none;
+    border:1px solid white;
+    
+}
+
+#header i{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translate(-50%,0);
+    font-size:50px;
+    color:bisque;
+}
+
+#header .headlinecontainer a:hover{
+    background-color:#24e098;
+    transition:background-color 2s;
+}
+
+#steps img{
+    float:right;
+    position:relative;
+    bottom:-20px;
+    width:80%;
+}
+
+#steps .circle{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    border:1px solid lightgrey;
+    position:relative;
+    float:left;
+}
+
+#steps .circle p{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size:20px;
+    color:grey;
+    font-weight:300;    
+}
+
+#steps .stepscontainer{
+    overflow:auto; 
+    margin-bottom:70px;
+    margin-left:50px;
+}
+
+#steps h2{
+    font-size:25px;
+}
+#steps.stepsdescription{
+    font-weight:300;
+}
+
+#steps a{
+    text-decoration:none;
+    color:orange;
+    font-size:25px;
+
+}
+
+#benefits{
+    text-align:center;
+    background-color:#F4F4F4;
+    height:100vh;
+}
+
+#benefits i{
+    color:#4e4d4d;
+    font-size:45px;
+}
+
+#benefits h3{
+    color:#11939A;
+    font-size:30px;
+    margin:10px 0;
+}
+
+.conclusion h2{
+    padding-top:100px;
+    font-size:30px;
+    width:60%;
+    font-weight:300;
+    position:relative;
+    left:20%;
+}
+
+#rules p{
+    font-weight:300;
+    font-size:16px;
+}
+
+#rules h4{
+    margin:20px 0;
+    font-size:30px;
+    color:#11939A;
+}
+
+#rules a{
+    background-color:#FF9F37;
+    color:white;
+    font-weight:700;
+    text-decoration:none;
+    padding:25px;
+    margin:0 auto;
+    display:block;
+    
+    margin-top:30px;
+    width:300px;
+}
+
+#rules img{
+    height:500px;
+    width:500px;
+    margin-top:40px;
+}
+#rules h1{
+    font-weight:300;
+    font-size:55px;
+}
+#rules{
+    text-align:center;
+}
+
+#rules h2{
+    margin-top:100px;
+    font-weight:300;
+    font-size:28px;
+    margin-left:70px;  
+}
+
+#rules h3{
+    margin-top:40px;
+    font-weight:300;
+    font-size:19px;
+    margin-left:70px;
+    position:relative;
+}
+
+#rules i{
+    font-size:100px;
+    color:bisque;
+}
+
+@media only screen and (max-width:470px){
+    
+    #header .headlinecontainer h1{
+        font-size:40px;
+    }
+    
+    #header.headlinecontainer h2{
+        font-size:25px;
+    }
+    
+    #header .headlinecontainer a{
+        font-size:20px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px){
+    
+    #steps .oneoftwo{
+        width:100%;
+    }
+    
+    #steps .oneoftwo img{
+        float:none;
+    }
+    
+    #steps .chesspieces{
+        text-align:center;
+        margin-bottom:50px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    
+    #steps .circle{
+        float:none;
+        margin: 0 auto;
+    }
+    
+    #steps .stepscontainer{
+        text-align:center;
+        margin-left:0;
+    }
+    
+    #steps .oneoftwo img{
+        width:70%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    
+    #benefits .one-of-three{
+        width:100%;
+    }
+    
+    #benefits .one-of-three h3{
+        margin: 0;
+    }
+    
+    #benefits p{
+        margin-bottom:40px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #benefits img{
+        display:none;
+    }
+}
